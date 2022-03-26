@@ -1,0 +1,102 @@
+:root {
+    --main-color2: #19c8fa;
+    --transparnt-color: rgb(15 116 143 / 70%);
+    --main-color: #10cab7;
+    --mains-color: #aed4d1;
+    --par-color: #896eff;
+    --pag-color: #9dbbd4;
+    --color-white: #fff;
+    --color-blue: #44A2EB;
+    --secodary-color: #436c81;
+    --section-background: #f6f6f6;
+    --section-padding: 60px;
+    --section-padding2: 100px;
+    --main-transition: 0.4s;
+    --main-padding-top: 100px;
+    --main-padding-bottom: 100px;
+    --color-1: #b8b9be;
+    --color-3: #22222255;
+    --color-4: #00000033;
+    --color-5: #ff5596;
+    --color-6: #ff9900;
+}
+
+body {
+    font-family: 'Lato', sans-serif, !important;
+    color: #1422e0;
+    font-weight: 300;
+    
+}
+
+
+.contanier-class {
+   padding: 80px;
+    
+    font-family: 'Lato', sans-serif, !important;
+    color: #676858;
+    font-weight: 300;
+}
+.text-center .title-logo {
+    margin-top: 36px;
+}
+.contanier-class .name-top {
+    position: relative;
+    text-align: right;
+}
+.text-cen .box-img .boxs-img{
+    position: relative;
+    border: 3px solid red;
+    margin-left: 88px;
+}
+
+.name-top .text-muted {
+    color:#bcbbbb;
+}
+.name-top .text-then{
+    font-weight: 100;
+}
+.name-top .title-super {
+ font-size: 60px;
+}
+.contanier-class .row::after {
+content: "";
+margin-top: 20px;
+width: 100%;
+height: 5px;
+background-color: #bcbbbb;
+padding: 5px;
+}
+.contanier-class .feetured {
+ position: relative;
+ margin-left: 7%;
+}
+.contanier-class .title-res {
+    position: relative;
+    text-align: center;
+    margin-top: 37px;
+    width: 100%;
+    height: 100%;
+}
+.contanier-class .text-cen {
+   position: relative;
+   text-align: center;
+}
+@media (max-width: 767px) {
+    .contanier-class .logo {
+        text-align: center;
+    }
+}
+@media (max-width: 767px) {
+    .contanier-class .name-top  {
+        font-size: 20px;
+        font-weight: 100;
+        text-align: center;
+    }
+}
+@media (max-width: 767px) {
+    .name-top .text-then  {
+        font-size: 20px;
+        font-weight: 100;
+        
+    }
+}
